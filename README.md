@@ -21,9 +21,9 @@
 
 ---
 
-## ⚙️ Setup
+## ⚙️ How was this setup
 
-Clone this repo and run the builder script:
+Run the builder script in the liteformer-source repo:
 
 ```bash
 python lite_transformers_builder.py
