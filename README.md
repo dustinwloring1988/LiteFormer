@@ -13,8 +13,7 @@
 ## ✨ Features
 
 - ✅ **Lightweight**: Removes TensorFlow, Flax, ONNX, Sagemaker, and multilingual doc support.
-- ✅ **Focused**: Keeps only your experimental models:  
-  `aformer`, `bformer`, `cformer`, `dformer`, `eformer`, `fformer`, `mformer`, `nformer`, `oformer`, `sformer`, `tformer`, `vformer`
+- ✅ **Focused**: Keeps only a minimal number of existing models.
 - ✅ **Modular & Clean**: Cleaner structure and smaller size for fast exploration.
 - ✅ **Custom Code Injection**: Injects your own model and tokenizer files automatically.
 - ✅ **Placeholder Docs & Tests**: Basic test folders and markdown docs are generated for each model.
@@ -139,7 +138,6 @@ python lite_transformers_builder.py
 ## 📋 TODO
 
 * [ ] Make repo compile by removing or fixing invalid imports and paths
-* [ ] Replace the current __version__ in `src/transformers/__init__.py` with __version__ = "0.1.0-lite"
 * [ ] Reduce auto classes to only what is minimally necessary
 * [ ] Replace placeholder models with real SOTA architectures (more info coming)
 * [ ] Write clean, user-focused documentation on usage and architecture
