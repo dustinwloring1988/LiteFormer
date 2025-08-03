@@ -1,1 +1,0 @@
-# Aformer placeholder documentation
