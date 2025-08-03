@@ -42,18 +42,8 @@ This will:
 These models are retained and initialized for experimentation:
 
 ```
-- aformer : Any Transformer : Any In Any Out (think chameleon)
-- bformer : Basic Transformer : Text In Text Out (think gemma2)
-- cformer : Clip Transformer : Image In Text Out (think clip)
-- dformer : Drawing Transformer : Text In Image Out (think aMUSEd)
-- eformer : MOE Transformer : Any In Text Out (think llama4)
-- fformer : First Transformer : Text In Text Out (think gpt2 or nanogpt)
-- mformer : Mat Transformer : Text In Text Out (think basic version of gemma3n)
-- nformer : NewMat Transformer : Any In Text Out (think gemma3n)
-- oformer : Omni Transformer : Any In Text Out (think qwen2_5_omni)
-- sformer : Speech Transformer : Audio In Text Out (think whisper)
-- tformer : Talking Transformer : Text In Audio Out (think whisper)
-- vformer : Vision Transformer : Text, Vision In Text Out (think gemma3)
+- modelname : Friendly Name : Input(s) and Output(s). (eg: Text & Image In Text Out)
+- modelname2 : Friendly Name2 : Input(s) and Output(s). (eg: Any In Text Out)
 ```
 
 Each model gets:
@@ -71,14 +61,14 @@ liteformer/
 ├── src/
 │   └── transformers/
 │       ├── models/
-│       │   ├── aformer/
+│       │   ├── modelname/
 │       │   ├── ...
 │       │   └── auto/
 │       ├── generation/
 │       └── ...
 ├── tests/
 │   └── models/
-│       ├── aformer/
+│       ├── modelname/
 │       ├── ...
 ├── docs/
 │   ├── model_doc/
